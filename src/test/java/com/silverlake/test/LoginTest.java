@@ -62,6 +62,7 @@ public class LoginTest extends AutomationWrapper {
 		String actualError = a3.getInvalidErrorMessage();
 		MainPage main1 = new MainPage(driver);
 		Assert.assertEquals(main1.getMainPageTitle(), expectedTitle);
+		Assert.assertTrue(actualError.contains(expectedTitle));
 	}
 	
 
