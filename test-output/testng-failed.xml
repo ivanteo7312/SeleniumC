@@ -6,7 +6,7 @@
       <class name="com.silverlake.test.LoginTest">
         <methods>
           <include name="teardown"/>
-          <include name="invalidLoginTest" invocation-numbers="0 1"/>
+          <include name="validLoginTest" invocation-numbers="2"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.silverlake.test.LoginTest -->
